@@ -1,8 +1,5 @@
-def add_nums(n1: int, n2: int) -> int:
-    return n1 + n2
 
-
-
+from functions.add import add_nums
 
 
 
