@@ -14,12 +14,13 @@ func_dict = {
 
 # Entry point for calc app
 if __name__ == "__main__":
-    user_input = int(input("input a number"))
+    user_input = int(input("input a number" + "\n"))
+    user_input2 = int(input("input another number" + "\n"))
 
     # Ask the user if they want to add subtract mult or div
-    user_input_func = input("do you want to add sub mult or div")
+    user_input_func = input("do you want to add sub mult or div" + "\n")
 
-    out = func_dict[user_input_func](user_input, 5)
+    out = func_dict[user_input_func](user_input, user_input2)
 
 
 
