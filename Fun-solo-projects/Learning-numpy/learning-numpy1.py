@@ -22,6 +22,6 @@ eigein_funct = input(
 if eigein_funct == "Y":
     w, v = np.linalg.eig(matrix)
 
-    print("the eigenvalues are \n", w, "\n and the eigenvectors are \n")
+    print("the eigenvalues are \n", w, "\n and the eigenvectors are \n", v)
 if eigein_funct == "N":
     print("thats it")
