@@ -8,3 +8,4 @@ def f(x):
 
 height = bisect(0, 1, f, 1E-3)
 print(f"the height is {height}")
+# the height is 636 mm
