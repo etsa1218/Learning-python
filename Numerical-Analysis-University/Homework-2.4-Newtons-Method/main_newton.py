@@ -10,8 +10,8 @@ def newt(x0: float, f: Callable[[float], float], fprime: Callable[[float], float
 
         if fprimex == 0:
             raise ValueError("cannot divide by 0, fprime(x) = 0")
-
-        x1 = x - (fx / fprimex)
+        step = fx / fprimex
+        x1 = x - step
 
         if abs(x1 - x) < tol:
             return x1, j
