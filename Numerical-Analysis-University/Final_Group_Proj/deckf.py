@@ -28,14 +28,7 @@ for i in range(n + 1):
     else:
         weights.append(4)
 
-target_half_area = 3605.86667
-target_sumproduct = target_half_area * 3 / 10
 
-actual_sumproduct = sum(f * w for f, w in zip(half_widths, weights))
-
-print("Target SUMPRODUCT:", target_sumproduct)
-print("Actual SUMPRODUCT:", actual_sumproduct)
-print("Difference:", actual_sumproduct - target_sumproduct)
 
  
 #Halfarea
